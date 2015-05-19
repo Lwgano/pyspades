@@ -1,23 +1,23 @@
 {
-    "name" : "pyspades server",
+    "name" : "[BR] Ace Of Spades CTF",
     "motd" : [
-        "Welcome to %(server_name)s! See /help for commands",
-        "Map is %(map_name)s by %(map_author)s",
-        "(server powered by pyspades)"
+        "Bem Vindo Ao %(server_name)s! Escreva /help Para saber os comandos",
+        "O Mapa e %(map_name)s por %(map_author)s",
+        "(Server feito por Roman-TM-)"
     ],
     "help" : [
-        "/SQUAD     Creates or joins a squad, letting you spawn with friends",
-        "/STREAK    Shows how many kills in a row you got without dying",
-        "/AIRSTRIKE Air support!  Try it out just like that for more details",
-        "/INTEL     Tells you who's got the enemy intel"
+        "/SQUAD     Cria Um Esquadrao",
+        "/STREAK    Mostra Quantos Multi-Kill Voce Fez",
+        "/AIRSTRIKE Suporte Aereo!",
+        "/INTEL     Mostra Com Quem Esta o Intel Inimigo"
     ],
     "tips" : [
-        "Here you can deploy airstrikes, form squads and more!  Type /help for info",
-        "The spade does melee damage!  Use it wisely"
+        "Aqui voce pode implantar ataques aereos, esquadroes e muito mais! Digite / help para Mais Informacoes",
+        "A Spade Da Bastante Dano!"
     ],
     "tip_frequency" : 5,
     "rules" : [
-        "No griefing, no cheating"
+        "Nao Use Hack Ou Levara Ban Permanente!"
     ],
     
     "master" : true,
@@ -34,7 +34,7 @@
               "hallway", "pinpoint2", "harbor2"],
     "random_rotation" : false,
     
-    "respawn_time" : 30,
+    "respawn_time" : 5,
     "respawn_waves" : true,
     "friendly_fire" : false,
     "grief_friendly_fire_time" : 5,
@@ -107,9 +107,9 @@
     },
     "irc" : {
         "enabled" : false,
-        "nickname" : "pyspades",
-        "username" : "pyspades",
-        "realname" : "pyspades server bot",
+        "nickname" : "RomanBOT",
+        "username" : "RomanBOT",
+        "realname" : "RomanBOT Server BOT",
         "server" : "irc.quakenet.org",
         "port" : 6667,
         "channel" : "#pyspades.bots",
@@ -131,17 +131,17 @@
         "memcheck"
     ],
     
-    "squad_respawn_time" : 45,
-    "squad_size" : 4,
+    "squad_respawn_time" : 5,
+    "squad_size" : 8,
     "auto_squad" : false,    
     "load_saved_map" : false,
     "statistics" : {
         "host" : "localhost",
-        "server_name" : "stats server",
+        "server_name" : "[BR] Ace Of Spades CTF",
         "port" : 32880,
-        "password" : "marmelade"
+        "password" : "devil10"
     },
     "welcomes" : {
-        "mat^2" : "The very likeable mat^2 has entered!"
+        "mat^2" : "O Admnistrador mat^2 Entrou!"
     }
 }
